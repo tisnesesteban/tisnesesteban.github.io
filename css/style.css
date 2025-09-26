@@ -317,26 +317,45 @@ a:focus {
     font-size: 18px;
 }
 
-.contact {
-    padding: 15px 0 0px;
-    text-align: left;
-    margin: auto;
-    font-size: 14px;
-    line-height: 18px;
-    color: #888888;
+/* Asegura buen alineado vertical icono + texto */
+.contact ul { 
+  list-style: none; 
+  padding-left: 0; 
+  display: flex; 
+  gap: 12px; 
+  flex-wrap: wrap; 
 }
 
-.contact h3 {
-  padding-bottom: 10px;
-  margin: 0;
-  line-height: 0;
+.contact li { 
+  display: inline-flex; 
+  align-items: center;          /* <- nuevo */
 }
 
+.contact a { 
+  text-decoration: none; 
+  color: #35519B;               /* consistente con tu paleta */
+  padding: 6px 8px;             /* mejor área clickeable */
+  border-radius: 6px;           /* hit area agradable */
+}
 
+.contact a:hover, 
+.contact a:focus {
+  color: #7E90BF; 
+  background: rgba(126,144,191,0.08);  /* feedback sutil */
+  outline: none;
+}
 
-.contact ul { list-style: none; padding-left: 0; display: flex; gap: 12px; flex-wrap: wrap; }
-.contact li { display: inline-flex; }
-.contact a { text-decoration: none; }
+/* separa un poco el ícono del texto */
+.contact a i { 
+  margin-right: 6px;            /* <- nuevo */
+}
+
+/* Evita cortes feos si ponés URLs visibles */
+.contact { 
+  word-break: keep-all; 
+}
+
+        
 
 .references{
   text-align: left;
@@ -961,3 +980,11 @@ input[type='checkbox'] {
   margin: 10px 0; /* Adjust spacing */
 
 }
+
+/* Seguridad para que ninguna imagen se deforme */
+img { 
+  max-width: 100%; 
+  height: auto; 
+  display: block;              /* evita pequeños “gaps” inline */
+}
+
