@@ -1,9 +1,9 @@
 /*
 Description: Personal website
 Version: 1.0 (October 2024)
-Author: Vedant Agarwal
-Email: vedant.agarwal@cemfi.edu.es
-Website: https://vedant-agl.github.io/
+Author: Esteban Tisnes
+Email: etisnes@bcu.gub.uy
+Website: https://tisnesesteban.github.io/
 */
 
 
@@ -332,17 +332,11 @@ a:focus {
   line-height: 0;
 }
 
-.contact ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-.contact ul {
-  list-style: none;
-}
+
+
+.contact ul { list-style: none; padding-left: 0; display: flex; gap: 12px; flex-wrap: wrap; }
+.contact li { display: inline-flex; }
+.contact a { text-decoration: none; }
 
 .references{
   text-align: left;
@@ -965,4 +959,5 @@ input[type='checkbox'] {
   height: 2px;
   background-color: #ccc; /* Change color as needed */
   margin: 10px 0; /* Adjust spacing */
+
 }
