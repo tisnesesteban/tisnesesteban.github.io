@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tisnesesteban.github.io/sitemap.xml
