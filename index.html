@@ -8,7 +8,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-111677767-1');
   </script>
 
@@ -31,6 +30,38 @@
 
   <!-- CSS stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- canonical & SEO -->
+  <link rel="canonical" href="https://tisnesesteban.github.io/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Esteban Tisnés - Home">
+  <meta property="og:description" content="Personal website of Esteban Tisnés, Economic Researcher at Banco Central del Uruguay">
+  <meta property="og:url" content="https://tisnesesteban.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://tisnesesteban.github.io/img/photo1.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Person schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Esteban Tisnés",
+    "alternateName": "Esteban Tisnes",
+    "jobTitle": "Economics Researcher",
+    "affiliation": {"@type": "Organization", "name": "Banco Central del Uruguay"},
+    "url": "https://tisnesesteban.github.io/",
+    "image": "https://tisnesesteban.github.io/img/photo1.jpeg",
+    "email": "mailto:etisnes@bcu.gub.uy",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=KXhea_wAAAAJ&hl=en",
+      "https://www.linkedin.com/in/esteban-tisn%C3%A9s-goggia-bb53707b/",
+      "https://x.com/estisnes"
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -43,10 +74,10 @@
       </div>
 
       <div class="header-title"><h1>Esteban Tisnés</h1></div>
-      <div class="header-subtitle"><h2>Economics Researcher, <a href="https://www.bcu.gub.uy/Estadisticas-e-Indicadores/estudios/Paginas/default.aspx" target="_blank">Banco Central del Uruguay</a>
+      <div class="header-subtitle"><h2>Economics Researcher, <a href="https://www.bcu.gub.uy/Estadisticas-e-Indicadores/estudios/Paginas/default.aspx" target="_blank">Banco Central del Uruguay</a></h2></div>
 
-        <!-- Contact info -->
-        <div class="contact">
+      <!-- Contact info -->
+      <div class="contact">
         <ul>
           <li>
             <a href="mailto:etisnes@bcu.gub.uy" target="_blank" rel="noopener">
@@ -75,180 +106,224 @@
           </li>
         </ul>
       </div>
+    </div>
 
-        <link rel="canonical" href="https://tisnesesteban.github.io/">
-        <meta name="robots" content="index, follow">
+    <hr class="section-divider">
+
+    <!-- Top Navigation (tabs) -->
+    <nav class="topnav" role="navigation" aria-label="Main">
+      <a href="#home"     data-section="home"     class="current">Home</a>
+      <a href="#research" data-section="research">Research</a>
+      <a href="#teaching" data-section="teaching">Teaching</a>
+      <a href="#misc"     data-section="misc">Misc</a>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="section active" role="region" aria-labelledby="home-title">
+      <h2 id="home-title" class="section-header" style="display:none;">Home</h2>
+      <div class="home main-col">
+        <div class="grid-container">
+          <div class="col-main">
+            <p>Welcome! I am an Economics Researcher at <a href="https://www.bcu.gub.uy/Estadisticas-e-Indicadores/estudios/Paginas/default.aspx" target="_blank">Banco Central del Uruguay</a>. My research interests are in the fields of International Macroeconomics, Monetary and Fiscal Policy.</p>
+            <a href="doc/cv/CV_ET.pdf" target="_blank">Curriculum vitae</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- RESEARCH (con tu contenido actual) -->
+    <section id="research" class="section" role="region" aria-labelledby="research-title">
+      <h2 id="research-title" class="section-header" style="display:none;">Research</h2>
+
+      <div class="research res-main-col">
+
+        <h2>Working papers</h2>
+
+        <div class="research-item">
+          <h3><a href="doc/research/HtM_draft.pdf" target="_blank">What Drives the Cross-Country Differences in Hand-to-Mouth Shares?</a></h3>
+          <h4>with <a href="https://clara-arroyo.com/" target="_blank">Clara Arroyo (IMF)</a></h4>     
+          <div class="date">July 2025</div>
+
+          <div class="abstract">
+            <div class="wrap-collabsible">
+              <input id="col-abs-amms" class="toggle" type="checkbox">
+              <label for="col-abs-amms" class="lbl-toggle">Abstract</label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  Recent literature has highlighted that differences across countries in the share of Hand-to-Mouth households (HtM) are important for the transmission of aggregate shocks as well as monetary and fiscal policy. How can we explain cross-country differences in the share of hand-to-mouth households? In this paper, we first document significant heterogeneity in the share of HtM households across European countries.
+                  This heterogeneity is driven by large differences in the share of wealthy HtM households, who hold illiquid but no liquid wealth. On the contrary, the share of poor HtM, who hold neither liquid or illiquid wealth, is similar across countries. Second, we develop a two-asset life-cycle model with incomplete markets and uninsurable income risk and calibrate it to Spain. Through the lens of the model we study the role country differences in income risk, the life-cycle profile of earnings and retirement benefits. 
+                  Although we report substantial differences across countries in mean income, risk and retirement benefits, results suggest that they cannot explain cross-country differences in the share of HtM by themselves. On the other hand, differences in financial conditions are able to explain, ceteris-paribus, 51% of the differences in HtM shares, by explaining 68% of W-HtM shares.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="presentations">
+            <div class="wrap-collabsible">
+              <input id="col-pres-1" class="toggle" type="checkbox">
+              <label for="col-pres-1" class="lbl-toggle">Presentations</label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  <ul>
+                    <li>BCU Annual Conference 2024, LACEA LAMES 2024</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         
-        <!-- Open Graph / Twitter (previews al compartir) -->
-        <meta property="og:title" content="Esteban Tisnés - Home">
-        <meta property="og:description" content="Personal website of Esteban Tisnés, Economic Researcher at Banco Central del Uruguay">
-        <meta property="og:url" content="https://tisnesesteban.github.io/">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="https://tisnesesteban.github.io/img/photo1.jpeg">
-        <meta name="twitter:card" content="summary_large_image">
-
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Esteban Tisnés",
-          "alternateName": "Esteban Tisnes",
-          "jobTitle": "Economics Researcher",
-          "affiliation": {"@type": "Organization", "name": "Banco Central del Uruguay"},
-          "url": "https://tisnesesteban.github.io/",
-          "image": "https://tisnesesteban.github.io/img/photo1.jpeg",
-          "email": "mailto:etisnes@bcu.gub.uy",
-          "sameAs": [
-            "https://scholar.google.com/citations?user=KXhea_wAAAAJ&hl=en",
-            "https://www.linkedin.com/in/esteban-tisn%C3%A9s-goggia-bb53707b/",
-            "https://x.com/estisnes"
-          ]
-        }
-        </script>
-    </div>
-
-    <hr class="section-divider">
-
-    <!-- Navigation bar
-    <div class="topnav">
-      <a class="current" href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="cv.html">CV</a>
-    </div>
-    -->
-
-    <div class="home main-col">
-      <div class="grid-container">
-        <div class="col-main">
-          <p>Welcome! I am an Economics Researcher at <a href="https://www.bcu.gub.uy/Estadisticas-e-Indicadores/estudios/Paginas/default.aspx" target="_blank">Banco Central del Uruguay</a>. My research interests are in the fields of International Macroeconomics, Monetary and Fiscal Policy.</p>
-          <a href="doc\cv\CV_ET.pdf" target="_blank">Curriculum vitae</a>
         </div>
-      </div>
-    </div>
+        
+        <div class="research-item">
+          <h3><a href="doc/research/MacropruFXI_draft.pdf" target="_blank">Macroprudential Use of Foreign Reserves Accumulation</a></h3>
+          <div class="date">June 2024</div>
 
-    <hr class="section-divider">
-
-  <div class="research res-main-col">
-
-    <h2>Working papers</h2>
-
-    <div class="research-item">
-
-      <h3><a href="doc\research\HtM_draft.pdf" target="_blank">What Drives the Cross-Country Differences in Hand-to-Mouth Shares?</a></h3>
-      <!-- <h3>Optimal deposit insurance in a macroeconomic model with runs</h3> -->
-      <h4>with <a href="https://clara-arroyo.com/" target="_blank">Clara Arroyo (IMF)</a></h4>     
-      
-
-      <div class="date">July 2025</div>
-
-      <div class="abstract">
-        <div class="wrap-collabsible">
-          <input id="col-abs-amms" class="toggle" type="checkbox">
-          <label for="col-abs-amms" class="lbl-toggle">Abstract</label>
-          <!-- <div class="always-visible-content"> -->
-          <div class="collapsible-content">
-            <div class="content-inner">
-              Recent literature has highlighted that differences across countries in the share of Hand-to-Mouth households (HtM) are important for the transmission of aggregate shocks as well as monetary and fiscal policy. How can we explain cross-country differences in the share of hand-to-mouth households? In this paper, we first document significant heterogeneity in the share of HtM households across European countries.
-              This heterogeneity is driven by large differences in the share of wealthy HtM households, who hold illiquid but no liquid wealth. On the contrary, the share of poor HtM, who hold neither liquid or illiquid wealth, is similar across countries. Second, we develop a two-asset life-cycle model with incomplete markets and uninsurable income risk and calibrate it to Spain. Through the lens of the model we study the role country differences in income risk, the life-cycle profile of earnings and retirement benefits. 
-              Although we report substantial differences across countries in mean income, risk and retirement benefits, results suggest that they cannot explain cross-country differences in the share of HtM by themselves. On the other hand, differences in financial conditions are able to explain, ceteris-paribus, 51% of the differences in HtM shares, by explaining 68% of W-HtM shares.
+          <div class="abstract">
+            <div class="wrap-collabsible">
+              <input id="col-abs-eba" class="toggle" type="checkbox">
+              <label for="col-abs-eba" class="lbl-toggle">Abstract</label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  Emerging market economies often face volatile capital inflows, leading to sudden stops and capital flight that provoke macroeconomic adjustments. Theliteratureon macroprudential policy in this context has focused on the use of capital inflows taxes.
+                  However, foreign exchange interventions (FXI)a nd the accumulation of reserves are the most widely used prudential tool. This paper introduces market segmentation in international financial intermediation
+                  into a standard macroeconomic model of financial crises to examine its impact on optimal policy. The model features a small open economy with incomplete markets and an occasionally binding collateral constraint. The central bank uses FXI to create a wedge
+                  between domestic and international interest rates, leading to increased net foreign assets but also carry trade losses. The findings indicate that optimal FXI policy leans against the wind but less aggressively than in the absence of market imperfections,
+                  due totheincreasingcosts of interventions.
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="presentations">
-        <div class="wrap-collabsible">
-          <input id="col-pres-1" class="toggle" type="checkbox">
-          <label for="col-pres-1" class="lbl-toggle">Presentations</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              <ul>
-                <li>BCU Annual Conference 2024, LACEA LAMES 2024</li>
-              </ul>
+        <hr class="section-divider">
+
+        <h2>Work in progress</h2>
+
+        <div class="research-item">
+          <h3>Asymmetric sectoral responses to weather shocks: An Application to Uruguay</h3>
+          <h4>with <a href="https://pure.uai.cl/en/persons/juan-pablo-medina" target="_blank">Juan Pablo Medina (UAI)</a></h4>     
+          <div class="date">Work in progress</div>
+
+          <div class="abstract">
+            <div class="wrap-collabsible">
+              <input id="col-abs-irr" class="toggle" type="checkbox">
+              <label for="col-abs-irr" class="lbl-toggle">Abstract</label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  Climate change has increased the frequency and intensity of droughts in several countries, with significant macroeconomic consequences particularly in the agricultural sector. 
+                  Uruguay is one such country that has recently faced adverse weather conditions affecting its productive capacity. This work aims to complement previous studies on the topic in three main areas. 
+                  First, we document asymmetries in the empirical responses of agricultural sub-sectors to weather shocks. Second, we extend a structural model to account for differences in the transmission of weather shocks across sectors. 
+                  Third, instead of estimating the model using Bayesian methods, we select key parameters to replicate the impulse response functions obtained from our empirical estimations. 
+                  Our results highlight important asymmetries and non-monotonic responses in the productive capacity of crops and livestock-dairy sectors following weather shocks in Uruguay.
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    
-    </div>
-    
-    <div class="research-item">
-      <h3><a href="doc\research\MacropruFXI_draft.pdf" target="_blank">Macroprudential Use of Foreign Reserves Accumulation</a></h3>
-      <!-- <h3>Climate conscious investors, carbon disclosures, and efficiency</h3> -->
-      <!-- <div class="date">March 2017 | <a href="http://www.nber.org/papers/w23280" target="_blank">NBER Working Paper 23280</a> | <a href="http://cepr.org/active/publications/discussion_papers/dp.php?dpno=11919" target="_blank">CEPR Discussion Paper 11919</a> | <a href="doc/research/esrbwp40.en.pdf" target="_blank">ESRB Working Paper 40</a> | Resubmission requested</div> -->
-      <div class="date">June 2024</div>
 
-      <div class="abstract">
-        <div class="wrap-collabsible">
-          <input id="col-abs-eba" class="toggle" type="checkbox">
-          <label for="col-abs-eba" class="lbl-toggle">Abstract</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              Emerging market economies often face volatile capital inflows, leading to sudden stops and capital flight that provoke macroeconomic adjustments. Theliteratureon macroprudential policy in this context has focused on the use of capital inflows taxes.
-              However, foreign exchange interventions (FXI)a nd the accumulation of reserves are the most widely used prudential tool. This paper introduces market segmentation in international financial intermediation
-into a standard macroeconomic model of financial crises to examine its impact on optimal policy. The model features a small open economy with incomplete markets and an occasionally binding collateral constraint. The central bank uses FXI to create a wedge
-between domestic and international interest rates, leading to increased net foreign assets but also carry trade losses. The findings indicate that optimal FXI policy leans against the wind but less aggressively than in the absence of market imperfections,
-due totheincreasingcosts of interventions.
-            </div>
-          </div>
+      </div><!-- /research res-main-col -->
+
+    </section>
+
+    <!-- TEACHING (nuevo) -->
+    <section id="teaching" class="section" role="region" aria-labelledby="teaching-title">
+      <h2 id="teaching-title" class="section-header" style="display:none;">Teaching</h2>
+
+      <div class="teaching teaching-container">
+        <!-- Universidad ORT Uruguay -->
+        <div class="teaching-item">
+          <h3>Universidad ORT Uruguay</h3>
+          <h4>Undergraduate</h4>
+          <ul>
+            <li>Time Series Econometrics (2024, 2025)</li>
+            <li>Principles of Statistics (2025)</li>
+          </ul>
+          <h4>Graduate</h4>
+          <ul>
+            <li>Time Series Forecasting (2025)</li>
+          </ul>
+        </div>
+
+        <!-- CEMFI -->
+        <div class="teaching-item">
+          <h3>CEMFI</h3>
+          <h4>Master of Economics and Finance</h4>
+          <ul>
+            <li>Topics in International Macroeconomics (2022, 2024): TA of Sebastián Fanelli</li>
+            <li>Macroeconomics II (2023): TA of Nezih Guner</li>
+          </ul>
         </div>
       </div>
-  
-      
-    </div>
+    </section>
 
-  </div>
+    <!-- MISC (nuevo) -->
+    <section id="misc" class="section" role="region" aria-labelledby="misc-title">
+      <h2 id="misc-title" class="section-header" style="display:none;">Misc</h2>
 
-    <hr class="section-divider">
-
-  <div class="research res-main-col">
-
-    <h2>Work in progress</h2>
-
-    <div class="research-item">
-      <!-- <h3><a href="" target="_blank">Climate conscious investors, carbon disclosures, and efficiency</a></h3> -->
-      <h3>Two speeds reaction to weather shocks: An Application to Uruguay</h3>
-      <h4>with <a href="https://pure.uai.cl/en/persons/juan-pablo-medina" target="_blank">Juan Pablo Medina (UAI)</a></h4>     
-      <!-- <div class="date">March 2017 | <a href="http://www.nber.org/papers/w23280" target="_blank">NBER Working Paper 23280</a> | <a href="http://cepr.org/active/publications/discussion_papers/dp.php?dpno=11919" target="_blank">CEPR Discussion Paper 11919</a> | <a href="doc/research/esrbwp40.en.pdf" target="_blank">ESRB Working Paper 40</a> | Resubmission requested</div> -->
-      <div class="date">Work in progress</div>
-
-      <div class="abstract">
-        <div class="wrap-collabsible">
-          <input id="col-abs-irr" class="toggle" type="checkbox">
-          <label for="col-abs-irr" class="lbl-toggle">Abstract</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              We examine optimal 
-            </div>
+      <div class="misc-grid">
+        <!-- 40 JAE app -->
+        <article class="app-card">
+          <h3>40 JAE app</h3>
+          <p>
+            Aplicación para analizar de forma interactiva los trabajos presentados en las 40 ediciones de las Jornadas Anuales de Economía del BCU.
+          </p>
+          <div class="app-media" aria-label="Imagen 40 JAE">
+            <img src="https://tisnesesteban.github.io/img/jornado_saluda.png"
+                 alt="40 JAE app" loading="lazy">
           </div>
-        </div>
+          <p style="margin-top:10px">
+            <!-- Reemplazá # por la URL real -->
+            <a class="button" href="https://tisnesesteban.shinyapps.io/jaeapp/" target="_blank" rel="noopener">Abrir app</a>
+          </p>
+        </article>
+
+        <!-- ARIMA Simulation Lab -->
+        <article class="app-card">
+          <h3>ARIMA Simulation Lab</h3>
+          <p>
+            Aplicación para apoyar la enseñanza de Econometría de Series de Tiempo mediante la familiarización con las características que presentan series de tiempo simuladas.
+          </p>
+          <div class="app-media" aria-label="Placeholder ARIMA Lab">
+            <img src="https://tisnesesteban.github.io/img/timeseries_evolution_blue.gif"
+                 alt="ARIMA Simulation LAB" loading="lazy">
+          </div>
+          <p style="margin-top:10px">
+            <!-- Reemplazá # por la URL real -->
+            <a class="button" href="https://tisnesesteban.shinyapps.io/arima_simulation_lab/" target="_blank" rel="noopener">Abrir app</a>
+          </p>
+        </article>
       </div>
-    
-      
-    </div>
-  
-  </div>
+    </section>
 
-</div>
+    <div class="footer"></div>
 
-<p><p><p><p>
+  </div><!-- /main-wrapper -->
 
-</div>
+  <!-- Router simple por hash -->
+  <script>
+    (function(){
+      const links = document.querySelectorAll('.topnav a');
+      const sections = document.querySelectorAll('.section');
 
-  <!-- Footer -->
-  <div class="footer">
-  </div>
+      function setActive(hash) {
+        const target = (hash || '#home').replace('#','');
 
-</div>
+        links.forEach(a => {
+          a.classList.toggle('current', a.getAttribute('data-section') === target);
+        });
+        sections.forEach(s => {
+          s.classList.toggle('active', s.id === target);
+        });
+      }
 
+      window.addEventListener('hashchange', () => setActive(location.hash));
+      window.addEventListener('DOMContentLoaded', () => setActive(location.hash));
+    })();
+  </script>
 </body>
-
 </html>
-
-
-
-
 
 
 
