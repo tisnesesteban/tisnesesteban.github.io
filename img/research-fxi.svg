@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Foreign reserves and crisis risk</title>
+  <desc id="desc">Stylized policy tradeoff chart with rising reserves and declining crisis risk.</desc>
+  <rect width="640" height="360" fill="#f7f8f5"/>
+  <rect x="54" y="44" width="532" height="248" rx="14" fill="#ffffff" stroke="#dde5db"/>
+  <g stroke="#e7ece4" stroke-width="1">
+    <line x1="92" y1="252" x2="550" y2="252"/>
+    <line x1="92" y1="208" x2="550" y2="208"/>
+    <line x1="92" y1="164" x2="550" y2="164"/>
+    <line x1="92" y1="120" x2="550" y2="120"/>
+  </g>
+  <path d="M96 244 C165 220 202 185 260 172 C320 158 360 122 410 104 C462 85 500 78 548 70" fill="none" stroke="#2f6f5e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M96 86 C160 104 212 122 264 151 C326 185 368 201 424 220 C472 236 510 243 548 248" fill="none" stroke="#c08448" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="410" cy="104" r="7" fill="#2f6f5e"/>
+  <circle cx="424" cy="220" r="7" fill="#c08448"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="56" y="324" font-size="18" font-weight="700" fill="#243c36">FXI policy tradeoff</text>
+    <text x="56" y="344" font-size="13" fill="#66736f">Leaning against the wind with carry-cost discipline</text>
+    <rect x="389" y="310" width="10" height="10" rx="5" fill="#2f6f5e"/>
+    <text x="406" y="319" font-size="12" fill="#66736f">reserves</text>
+    <rect x="471" y="310" width="10" height="10" rx="5" fill="#c08448"/>
+    <text x="488" y="319" font-size="12" fill="#66736f">crisis risk</text>
+  </g>
+</svg>

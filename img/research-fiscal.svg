@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Inflation expectations distribution shifts</title>
+  <desc id="desc">Stylized distribution chart showing upward and downward belief revisions after fiscal information.</desc>
+  <rect width="640" height="360" fill="#f8f6fb"/>
+  <rect x="54" y="44" width="532" height="248" rx="14" fill="#ffffff" stroke="#e3ddec"/>
+  <g stroke="#ece6f2" stroke-width="1">
+    <line x1="96" y1="252" x2="548" y2="252"/>
+    <line x1="96" y1="208" x2="548" y2="208"/>
+    <line x1="96" y1="164" x2="548" y2="164"/>
+    <line x1="96" y1="120" x2="548" y2="120"/>
+  </g>
+  <path d="M108 250 C170 246 200 218 236 166 C268 119 306 101 340 141 C380 188 420 235 532 246" fill="none" stroke="#6b5ea8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M108 248 C166 237 196 206 228 155 C265 96 312 91 352 135 C400 187 438 232 532 244" fill="none" stroke="#c05a71" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+  <path d="M108 248 C171 252 206 230 244 181 C282 133 315 118 344 152 C386 201 428 241 532 249" fill="none" stroke="#3a7991" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="56" y="324" font-size="18" font-weight="700" fill="#3d3658">Belief revisions after fiscal news</text>
+    <text x="56" y="344" font-size="13" fill="#706a7d">Distributional effects hidden by average expectations</text>
+    <rect x="395" y="310" width="10" height="10" rx="5" fill="#c05a71"/>
+    <text x="412" y="319" font-size="12" fill="#706a7d">upward</text>
+    <rect x="476" y="310" width="10" height="10" rx="5" fill="#3a7991"/>
+    <text x="493" y="319" font-size="12" fill="#706a7d">downward</text>
+  </g>
+</svg>

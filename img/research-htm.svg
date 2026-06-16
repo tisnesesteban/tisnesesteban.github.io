@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hand-to-mouth shares by country</title>
+  <desc id="desc">Stylized stacked bar chart comparing poor and wealthy hand-to-mouth shares across countries.</desc>
+  <rect width="640" height="360" fill="#f6f8fb"/>
+  <rect x="56" y="42" width="528" height="250" rx="14" fill="#ffffff" stroke="#dbe3ee"/>
+  <g stroke="#e7edf5" stroke-width="1">
+    <line x1="98" y1="252" x2="546" y2="252"/>
+    <line x1="98" y1="205" x2="546" y2="205"/>
+    <line x1="98" y1="158" x2="546" y2="158"/>
+    <line x1="98" y1="111" x2="546" y2="111"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#5d6778" font-size="13">
+    <text x="58" y="257">0</text>
+    <text x="52" y="210">10</text>
+    <text x="52" y="163">20</text>
+    <text x="52" y="116">30</text>
+  </g>
+  <g>
+    <rect x="116" y="201" width="34" height="51" rx="5" fill="#8bb6d9"/>
+    <rect x="116" y="149" width="34" height="52" rx="5" fill="#2d5f8a"/>
+    <rect x="190" y="214" width="34" height="38" rx="5" fill="#8bb6d9"/>
+    <rect x="190" y="174" width="34" height="40" rx="5" fill="#2d5f8a"/>
+    <rect x="264" y="190" width="34" height="62" rx="5" fill="#8bb6d9"/>
+    <rect x="264" y="122" width="34" height="68" rx="5" fill="#2d5f8a"/>
+    <rect x="338" y="223" width="34" height="29" rx="5" fill="#8bb6d9"/>
+    <rect x="338" y="186" width="34" height="37" rx="5" fill="#2d5f8a"/>
+    <rect x="412" y="207" width="34" height="45" rx="5" fill="#8bb6d9"/>
+    <rect x="412" y="159" width="34" height="48" rx="5" fill="#2d5f8a"/>
+    <rect x="486" y="181" width="34" height="71" rx="5" fill="#8bb6d9"/>
+    <rect x="486" y="105" width="34" height="76" rx="5" fill="#2d5f8a"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#27384f">
+    <text x="56" y="325" font-size="18" font-weight="700">Cross-country HtM heterogeneity</text>
+    <text x="56" y="344" font-size="13" fill="#667085">Wealthy HtM differences drive most variation</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="12">
+    <rect x="405" y="310" width="10" height="10" rx="2" fill="#2d5f8a"/>
+    <text x="422" y="319" fill="#5d6778">wealthy HtM</text>
+    <rect x="503" y="310" width="10" height="10" rx="2" fill="#8bb6d9"/>
+    <text x="520" y="319" fill="#5d6778">poor HtM</text>
+  </g>
+</svg>
