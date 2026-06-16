@@ -916,8 +916,8 @@ a:focus {
 
 .site-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
-  gap: 48px;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+  gap: 42px;
   align-items: center;
   padding: 56px 0 34px;
 }
@@ -965,15 +965,16 @@ a:focus {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 38px;
-  padding: 7px 14px;
+  min-height: 40px;
+  padding: 8px 16px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 999px;
   background: var(--surface);
   color: var(--accent);
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0;
+  box-shadow: 0 6px 16px rgba(24, 59, 115, 0.08);
 }
 
 .button.primary {
@@ -987,6 +988,7 @@ a:focus {
   border-color: var(--accent);
   background: #eef4ff;
   color: var(--accent-dark);
+  transform: translateY(-1px);
 }
 
 .button.primary:hover,
@@ -996,10 +998,13 @@ a:focus {
 }
 
 .hero-photo {
+  justify-self: end;
+  width: 100%;
+  max-width: 300px;
   margin: 0;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: 0 16px 34px rgba(23, 35, 55, 0.14);
   aspect-ratio: 4 / 5;
   background: var(--soft);
 }
@@ -1021,11 +1026,13 @@ a:focus {
   align-items: center;
   gap: 5px;
   color: #344054;
-  background: rgba(255,255,255,.72);
+  background: rgba(255,255,255,.86);
   border: 1px solid rgba(220,228,238,.9);
   border-radius: 999px;
-  padding: 6px 11px;
+  padding: 7px 12px;
   font-size: 14px;
+  line-height: 1;
+  box-shadow: 0 5px 14px rgba(23, 35, 55, 0.055);
 }
 
 .contact a i {
@@ -1038,6 +1045,7 @@ a:focus {
   color: var(--accent-dark);
   background: #ffffff;
   border-color: #b8c7dc;
+  transform: translateY(-1px);
 }
 
 .topnav {
@@ -1426,7 +1434,8 @@ a:focus {
   }
 
   .hero-photo {
-    max-width: 420px;
+    justify-self: start;
+    max-width: 280px;
   }
 
   .paper-figure {
@@ -1450,6 +1459,10 @@ a:focus {
 
   .hero-copy h1 {
     font-size: 40px;
+  }
+
+  .hero-photo {
+    max-width: 240px;
   }
 
   .hero-summary,
